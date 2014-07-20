@@ -38,7 +38,7 @@
 	    }
 
 	    public static function all($length = 15, $symbol = true , $case_sensitive = true){
-	    	$chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
+	    	$chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+';
 	    	
 	    	if ( $case_sensitive)
 	     	$chars .= 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';    
